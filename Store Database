@@ -14,4 +14,7 @@ INSERT INTO clothing_store VALUES(12, "sweatpants", 46, 50, 8);
 INSERT INTO clothing_store VALUES(13, "hoodie", 85, 60, 8);
 INSERT INTO clothing_store VALUES(14, "sweatshirt", 25, 45, 8);
 INSERT INTO clothing_store VALUES(15, "watches", 25, 75, 10);
+
 SELECT SUM(price) FROM clothing_store GROUP BY name
+
+SELECT * FROM clothing_store ORDER BY price DESC;
